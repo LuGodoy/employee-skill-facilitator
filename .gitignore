@@ -1,0 +1,30 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Variáveis de ambiente
+.env
+
+# Índice vetorial — recriado automaticamente na primeira execução
+chroma_data/
+
+# Perfis dos colaboradores — gerados em tempo de execução
+skills/*.md
+skills/.drafts/
+
+# Docker — não usado no Streamlit Cloud
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Sistema operacional
+.DS_Store
+
+# Documentação auxiliar (conteúdo já no README)
+FLUXO.md
+workflow.png
+
+# Pasta
+data/edv_docs/oracle_test_corp_manual_interno.pdf
