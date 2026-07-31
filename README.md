@@ -1,5 +1,14 @@
 # 🎓 Employee Skill Facilitator
 
+![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![LLM](https://img.shields.io/badge/LLM-Cohere-orange)
+![LangChain](https://img.shields.io/badge/LangChain-Orquestração-lightgrey)
+![ChromaDB](https://img.shields.io/badge/VectorStore-ChromaDB-blueviolet)
+![RAG](https://img.shields.io/badge/RAG-Enabled-informational)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+
 Agente tutor adaptativo alimentado por IA que aprende o perfil de cada colaborador e responde perguntas sobre os documentos internos da empresa usando RAG (Retrieval-Augmented Generation).
 
 ---
@@ -175,13 +184,17 @@ Com base nos documentos indexados da EDV, Empresa de Evolução Digital:
 
 ---
 
-## ☁️ Deploy no streamlit Cloud
+## ☁️ Deploy no Streamlit Community Cloud
 
-A aplicação está implantada em streamlit Cloud e acessível publicamente.
+A aplicação está implantada no Streamlit Community Cloud e acessível publicamente.
 
-**🔗 Acesso:** [aqui](https://employee-skill-facilitatorgit-53zq2yheixjtuz6qg3uybv.streamlit.app/)
+**🔗 Acesso:** [employee-skill-facilitator](https://employee-skill-facilitatorgit-53zq2yheixjtuz6qg3uybv.streamlit.app/)
 
-![Demonstração da aplicação em execução no streamlit Cloud](docs/demo.gif)
+<details>
+    <summary>Demonstração da aplicação em execução no  Streamlit Community Cloud</summary>
+
+![Demonstração da aplicação em execução no  Streamlit Community Cloud](docs/demo.gif)
+</details>
 
 ---
 
