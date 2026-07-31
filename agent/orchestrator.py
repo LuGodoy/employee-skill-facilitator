@@ -94,7 +94,7 @@ def get_llm():
     return ChatCohere(
         model=os.environ.get("COHERE_MODEL", "command-r"),
         cohere_api_key=os.environ["COHERE_API_KEY"],
-        temperature=0.3,
+        temperature=0.2,
         max_tokens=800,
     )
 
