@@ -159,6 +159,11 @@ def construir_skill(colaborador_id: str) -> Path | None:
         "Isso leva menos de 2 minutos e fica salvo para sempre personalizar "
         "as respostas do agente daqui pra frente."
     )
+    st.caption(
+        "⚠️ As perguntas a seguir são apenas uma aproximação informal do seu "
+        "estilo de aprendizagem — sem base científica rigorosa. Servem somente "
+        "para personalizar o tom das respostas do agente."
+    )
 
     # Reexibe o histórico da conversa até o passo atual
     for pergunta in PERGUNTAS[:passo]:
@@ -187,5 +192,9 @@ def construir_skill(colaborador_id: str) -> Path | None:
     st.success(
         f"Perfil de aprendizagem salvo em `{caminho}`. A partir de agora, "
         "o agente já vai usar isso em todas as suas respostas."
+    )
+    st.caption(
+        "⚠️ Lembre-se: este perfil é uma aproximação informal, sem rigor científico. "
+        "Você pode refazê-lo a qualquer momento pela barra lateral."
     )
     return caminho

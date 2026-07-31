@@ -153,6 +153,7 @@ rm -rf chroma_data/
 2. Em **Settings > Secrets**, adicione:
    ```
    COHERE_API_KEY = <sua_chave_cohere>
+   COHERE_MODEL = command-r
    ```
 
 > ⚠️ O índice vetorial não persiste entre deploys no Streamlit Cloud — ele é recriado a cada nova instância.
@@ -171,6 +172,16 @@ Com base nos documentos indexados da EDV, Empresa de Evolução Digital:
 - *Quais frameworks são usados para construir agentes?*
 - *Qual a diferença entre LangChain e LangGraph?*
 - *O plano Starter suporta quantas execuções por mês?*
+
+---
+
+## ☁️ Deploy no streamlit Cloud
+
+A aplicação está implantada em streamlit Cloud e acessível publicamente.
+
+**🔗 Acesso:** [aqui](https://employee-skill-facilitatorgit-53zq2yheixjtuz6qg3uybv.streamlit.app/)
+
+![Demonstração da aplicação em execução no streamlit Cloud](docs/demo.gif)
 
 ---
 
