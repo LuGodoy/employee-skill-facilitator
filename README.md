@@ -184,7 +184,7 @@ Com base nos documentos indexados da EDV, Empresa de Evolução Digital:
 
 ---
 
-## ☁️ Deploy no Streamlit Community Cloud
+## ☁️ Deploy - Streamlit Community Cloud
 
 A aplicação está implantada no Streamlit Community Cloud e acessível publicamente.
 
