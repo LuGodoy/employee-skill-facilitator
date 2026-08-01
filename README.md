@@ -95,7 +95,7 @@ flowchart TD
         R --> S[Formata contexto]
         R --> T[Extrai fontes]
         N & S & T --> U[ChatPromptTemplate\nskill + modo + contexto + pergunta]
-        U --> V[ChatCohere — command-r\ntemp 0.3 / max 800 tokens]
+        U --> V[ChatCohere — command-a-03-2025\ntemp 0.3 / max 800 tokens]
         V --> X[Retorna resposta + fontes]
     end
 
@@ -112,7 +112,7 @@ flowchart TD
 | Camada | Tecnologia |
 |---|---|
 | Interface | Streamlit |
-| LLM | Cohere `command-r` |
+| LLM | Cohere `command-a-03-2025` |
 | Embeddings | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (local, sem API) |
 | Vector store | ChromaDB |
 | Orquestração | LangChain |
@@ -162,7 +162,7 @@ rm -rf chroma_data/
 2. Em **Settings > Secrets**, adicione:
    ```
    COHERE_API_KEY = <sua_chave_cohere>
-   COHERE_MODEL = command-r
+   COHERE_MODEL = command-a-03-2025
    ```
 
 > ⚠️ O índice vetorial não persiste entre deploys no Streamlit Cloud — ele é recriado a cada nova instância.

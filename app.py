@@ -31,8 +31,11 @@ if not colaborador_id:
 
 # Modo 1: primeira vez do colaborador -> construir a skill de aprendizagem
 if not skill_existe(colaborador_id):
-    construir_skill(colaborador_id)
-    st.stop()
+    resultado = construir_skill(colaborador_id)
+    if resultado is None:
+        st.stop()
+    else:
+        st.rerun()
 
 # Modo 2: já tem skill salva -> mostra o perfil e libera o chat de dúvidas
 with st.sidebar.expander("Seu perfil de aprendizagem"):
